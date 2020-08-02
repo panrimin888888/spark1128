@@ -15,6 +15,7 @@ object Test{
     val salary: Double = 22000.00
     val salary2: Double = 25000.00
     val company: String = "shuwei1"
+    val company2: String = "guigu"
     val stringList = List("Hello Scala Hbase kafka", "Hello Scala Hbase", "Hello Scala", "Hello")
     val strings: immutable.Seq[String] = stringList.flatMap(x => x.split(" "))
     val wordTogetor = strings.groupBy(word=>word)
