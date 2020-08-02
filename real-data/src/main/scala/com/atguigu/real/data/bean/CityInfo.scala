@@ -11,6 +11,7 @@ case class CityInfo(city_id: Long,
 
 object Test{
   def main(args: Array[String]): Unit = {
+    val name: String = "jack"
     val stringList = List("Hello Scala Hbase kafka", "Hello Scala Hbase", "Hello Scala", "Hello")
     val strings: immutable.Seq[String] = stringList.flatMap(x => x.split(" "))
     val wordTogetor = strings.groupBy(word=>word)
