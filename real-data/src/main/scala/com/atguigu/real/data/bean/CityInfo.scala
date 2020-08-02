@@ -1,8 +1,6 @@
 package com.atguigu.real.data.bean
 
-import scala.beans.BeanProperty
 import scala.collection.immutable
-import scala.collection.mutable.ListBuffer
 
 case class CityInfo(city_id: Long,
                     city_name: String,
